@@ -2,9 +2,13 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
-    title Prototype
+    title Weather Cams
     link(rel='stylesheet', href='/style.css')
   body
-    h1 Hello, World
+    h1 Weather Cams
+    input#zip-code(type='text', autofocus=true, placeholder='zip')
+    button#get-cams Get Cams
+    button#my-cams My Cams
+    #images
     script(src='/vendor/jquery/dist/jquery.js')
     script(src='/main.js')
